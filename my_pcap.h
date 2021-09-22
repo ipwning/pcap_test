@@ -28,7 +28,7 @@ typedef struct {
 }c_packet; // custom packet structure
 
 typedef struct {
-	char* dev_;
+    char* dev_;
 } Param;
 
 void pcap_start(pcap_t *pcap);
